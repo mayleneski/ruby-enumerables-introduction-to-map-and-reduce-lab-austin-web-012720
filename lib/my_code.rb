@@ -1,6 +1,5 @@
 require 'pry'
 def map_to_negativize(source_array)
-  binding.pry
   negativize_array = []
   i = 0
   
@@ -9,6 +8,7 @@ def map_to_negativize(source_array)
   i += 1
   end  
   negativize_array
+  binding.pry
 end  
 
 
